@@ -1,37 +1,83 @@
+@font-face {
+    font-family: 'brittany_signatureregular';
+    src: url(BrittanySignature.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GaretBook';
+    src: url(Garet-Book.ttf);   
+    font-weight: normal;
+    font-style: normal;
+}
 #text-block1 {
     background-color: #330f0a;
     width: 839px;
     height: 268px;
     top: 250px;
-    left: 300px;
-    position: absolute;
-
-}
+    left: 220px;
+    position: absolute;}
 #pic1 {
-    width: 1350px;
-    height: 401px;
+    width: 1279px;
+    height: 397px;
     position: relative;
 }
 #pic2 {
     position: absolute;
     top: -60px;
-    left: 50px;
-
-}
+    left: 50px;}
 #name {
-    font-size: 70px;
+    font-size: 95px;
     color:#e6ad61;
-    text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-family: 'brittany_signatureregular';
+    padding-left: 250px;
+    padding-top: 50px;
 }
-#para1{
-    font-size: 19px;
+.para{
+    font-size: 25px;
     color: #f8ebe0;
-    text-align: center;
-    
+    font-family: 'GaretBook';
+    padding-left: 220px;
+    padding-top: 10px;   
 }
 body {
     font-size: 16px;
     color: #fff;
     background-color: #F8EBE0;
 }
+/*Coding page2*/
+#pic3{
+    top: 315px;
+    height: 616px;
+    position: relative;
+}
+#text-block2{
+    background-color: #330f0a;
+    width: 588px;
+    height: 385px;
+    position: absolute;
+    top: 120px;
+    left: 85px;
+}
+.title{
+    font-size: 60px;
+    font-family: 'brittany_signatureregular';
+    padding-top: 50px;
+    padding-left: 50px;
+    color:#e6ad61;
+}
+#intro{
+    padding-left: 50px;
+    font-size: 25px;
+    color: #f8ebe0;
+    font-family: 'GaretBook'
+}
+/*Coding page 3*/
+#page3{
+    background-color: #330f0a;
+    width: 1279px;
+    height: 715px;
+    top: 365px;
+    position:relative;
+}
+
