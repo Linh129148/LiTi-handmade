@@ -1,0 +1,37 @@
+#text-block1 {
+    background-color: #330f0a;
+    width: 839px;
+    height: 268px;
+    top: 250px;
+    left: 300px;
+    position: absolute;
+
+}
+#pic1 {
+    width: 1350px;
+    height: 401px;
+    position: relative;
+}
+#pic2 {
+    position: absolute;
+    top: -60px;
+    left: 50px;
+
+}
+#name {
+    font-size: 70px;
+    color:#e6ad61;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+#para1{
+    font-size: 19px;
+    color: #f8ebe0;
+    text-align: center;
+    
+}
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #F8EBE0;
+}
