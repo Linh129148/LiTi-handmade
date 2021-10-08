@@ -10,6 +10,12 @@
     font-weight: normal;
     font-style: normal;
 }
+@font-face {
+    font-family: 'GaretHeavy';
+    src: url(Garet-Heavy.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
 #text-block1 {
     background-color: #330f0a;
     width: 839px;
@@ -18,7 +24,6 @@
     left: 220px;
     position: absolute;}
 #pic1 {
-    width: 1279px;
     height: 397px;
     position: relative;
 }
@@ -48,7 +53,7 @@ body {
 /*Coding page2*/
 #pic3{
     top: 315px;
-    height: 616px;
+    height: 800px;
     position: relative;
 }
 #text-block2{
@@ -59,7 +64,7 @@ body {
     top: 120px;
     left: 85px;
 }
-.title{
+#title1{
     font-size: 60px;
     font-family: 'brittany_signatureregular';
     padding-top: 50px;
@@ -72,12 +77,54 @@ body {
     color: #f8ebe0;
     font-family: 'GaretBook'
 }
-/*Coding page 3*/
+/*Coding page3*/
 #page3{
     background-color: #330f0a;
-    width: 1279px;
     height: 715px;
-    top: 365px;
+    top: 225px;
     position:relative;
 }
-
+#text-block3{
+    background-color: #f8ebe0;
+    width: 600px;
+    height: 130px;
+    padding-top: 20px;
+    left: 370px;
+    top: 50px;
+    position: absolute;
+}
+#title2{
+    font-family: 'brittany_signatureregular';
+    font-size: 60px;
+    color: #330f0a;
+    text-align: center;
+    padding-top: 10px;
+}
+#products-pic{
+    display: flex;
+    align-items:center;
+    padding-top: 300px;
+    left: 60px;
+    justify-content: space-evenly;
+}
+#discrip{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.inline-text{
+    width: 302px;
+    height: 105px;
+}
+.pname{
+    font-family: 'GaretHeavy';
+    text-align: center;
+    font-size: 20px;
+    color:#e6ad61;
+}
+.lines{
+    font-family:'GaretBook';
+    font-size: 14px;
+    color:#f8ebe0;
+    text-align:left;
+}
